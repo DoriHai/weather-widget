@@ -1,0 +1,54 @@
+.weather-input__input {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.weather-input__button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.weather-container {
+    margin: 0 auto;
+    width: 500px;
+    border: #007bff 1px solid;
+}
+
+.weather-data {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+}
+
+.weather-day {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 100px;
+}
+
+.weather-day__image img {
+    width: 40px;
+    height: 40px;
+}
+
+.weather-day__name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.weather-day__temperature {
+    font-size: 16px;
+}
